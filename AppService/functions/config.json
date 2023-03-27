@@ -1,0 +1,21 @@
+[
+    {
+        "name": "resetFunc",
+        "private": true
+    },
+    {
+        "name": "createTask",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getTasks",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "updateTask",
+        "private": false,
+        "disable_arg_logs": true
+    }
+]

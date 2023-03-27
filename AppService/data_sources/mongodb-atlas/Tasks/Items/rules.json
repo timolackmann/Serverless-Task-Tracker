@@ -1,0 +1,28 @@
+{
+    "collection": "Items",
+    "database": "Tasks",
+    "roles": [
+        {
+            "name": "TaskOwner",
+            "apply_when": {
+                "owner_id": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true
+        },
+        {
+            "name": "ReadOnly",
+            "apply_when": {
+                "owner_id": {
+                    "$ne": "%%user.id"
+                }
+            },
+            "read": true,
+            "write": false,
+            "search": true
+        }
+    ]
+}

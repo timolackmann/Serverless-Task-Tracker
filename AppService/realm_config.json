@@ -1,0 +1,7 @@
+{
+  "config_version": 20210101,
+  "app_id": "xxxxx",
+  "name": "TaskTracker",
+  "location": "DE-FF",
+  "deployment_model": "LOCAL"
+}
